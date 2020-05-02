@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "@babel/preset-env", "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@components": ["./src/components"],
+          "@services": ["./src/services"],
+          "@views": ["./src/views"],
+          "@assets": ["./src/assets"]
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "galatti",
+  "version": "1.0.2",
+  "description": "CLI utilizada para a criação de projetos",
+  "author": "Gabriel Galatti",
+  "bin": {
+    "galatti": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "execa": "^4.0.0",
+    "inquirer": "^7.1.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
